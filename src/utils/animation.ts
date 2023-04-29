@@ -1,4 +1,5 @@
 import Typed from 'typed.js';
+import $ from 'jquery';
 
 export function animateText(element: HTMLElement): void {
 
@@ -14,4 +15,10 @@ export function animateText(element: HTMLElement): void {
         new Typed(element, options);
     }
 
+}
+
+export function smoothScroll(target: string) {
+    $('html, body').animate({
+        scrollTop: $(target).offset().top
+    }, 500);
 }

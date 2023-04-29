@@ -24,7 +24,7 @@
           </div>
         </div>
 
-        <div class="arlo_tm_arrow_wrap bounce anchor">
+        <div class="arrow_to_about bounce anchor">
           <a href="#" @click.prevent="smoothScroll('#about')"><i class="xcon-angle-double-down"></i></a>
         </div>
       </div>
@@ -33,14 +33,12 @@
 </template>
 
 <script>
-
 import $ from 'jquery';
 
 export default {
   name: "HomeHome",
 
   setup() {
-
     function smoothScroll(target) {
       $('html, body').animate({
         scrollTop: $(target).offset().top

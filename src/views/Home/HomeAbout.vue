@@ -64,9 +64,12 @@
               <div class="buttons_wrap">
                 <ul>
                   <li>
-                    <a href="/public"><span>Download CV</span></a>												</li>
+                    <a href="/"><span>Download CV</span></a>
+                  </li>
                   <li class="anchor">
-                    <a href="#contact"><span>Send Message</span></a>												</li>
+<!--                    <router-link to="/index#contact">Send Message</router-link>-->
+                    <a href="#" @click.prevent="smoothScroll('#contact')"><span>Send Message</span></a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -80,9 +83,34 @@
 </template>
 
 <script>
+import $ from 'jquery';
+import Parallax from 'parallax-js';
 
 export default {
-  name: "HomeAbout"
+  name: "HomeAbout",
+  mounted() {
+    function about_animation(){
+      if ($('.parallax').length > 0) {
+        var scene = $('.parallax').get(0);
+        var parallax = new Parallax(scene, {
+          relativeInput: true,
+          // onReady: function() { console.log('ready!');
+          // }
+        });
+      }
+    }
+    about_animation();
+  },
+  setup() {
+    function smoothScroll(target) {
+      $('html, body').animate({
+        scrollTop: $(target).offset().top
+      }, 1000);
+    }
+    return {
+      smoothScroll
+    };
+  },
 };
 </script>
 

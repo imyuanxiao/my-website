@@ -15,15 +15,15 @@
             </div>
             <div class="short_info_wrap">
               <ul>
-                <li><p><label>Address:</label><span>123 Qwerty Avenue NYC, USA</span></p></li>
-                <li><p><label>Email:</label><span><a href="mailto:example@gmail.com">example@gmail.com</a></span></p></li>
-                <li><p><label>Phone:</label><span>+77 022 177 05 05</span></p></li>
-                <li><p><label>Website:</label><span><a href="mailto:example@gmail.com">www.yourdomain.com</a></span></p></li>
+                <li><p><label>Address:</label><span></span></p></li>
+                <li><p><label>Email:</label><span><a href="mailto:imyuanxiao@126.com">imyuanxiao@126.com</a></span></p></li>
+                <li><p><label>Phone:</label><span>+44 74 21898341</span></p></li>
+                <li><p><label>Website:</label><span><a href="/index">imyuanxiao.com</a></span></p></li>
               </ul>
             </div>
           </div>
           <div class="rightbox">
-            <div class="arlo_tm_contact_wrap">
+            <div class="contact_wrap">
               <div class="main_input_wrap">
                 <form action="" method="post" class="contact_form" id="contact_form">
                   <div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
@@ -37,7 +37,7 @@
                   <div class="wrap">
                     <textarea id="message" placeholder="Your Message"></textarea>
                   </div>
-                  <div class="arlo_tm_button">
+                  <div class="send_button">
                     <a id="send_message" href="#"><span>Send Message</span></a>												</div>
                 </form>
               </div>
@@ -45,9 +45,9 @@
           </div>
         </div>
       </div>
-      <div class="arlo_tm_footer_wrap">
+      <div class="footer_wrap">
         <div class="container">
-          <p>Copyright &copy; 2019.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+          <p>Copyright &copy; 2023.IMYUANXIAO All rights reserved.<a target="_blank" href=""></a></p>
         </div>
       </div>
     </div>
@@ -125,7 +125,7 @@ export default {
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_contact_wrap{
+.contact_wrap{
   max-width: 830px;
   height: auto;
   margin: 0px auto;
@@ -134,18 +134,18 @@ export default {
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_contact_wrap .subtitle{
+.contact_wrap .subtitle{
   text-align: center;
   margin-bottom: 69px;
 }
-.arlo_tm_contact_wrap .subtitle p{color: #333;}
-.arlo_tm_contact_wrap .main_input_wrap{
+.contact_wrap .subtitle p{color: #333;}
+.contact_wrap .main_input_wrap{
   margin-bottom: 75px;
   position: relative;
   top: -24px;
 }
-.arlo_tm_contact_wrap .main_input_wrap,
-.arlo_tm_contact_wrap .main_input_wrap .wrap{
+.contact_wrap .main_input_wrap,
+.contact_wrap .main_input_wrap .wrap{
   width: 100%;
   height: auto;
   clear: both;
@@ -155,8 +155,8 @@ export default {
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_contact_wrap .main_input_wrap .wrap{margin-bottom: 20px;}
-.arlo_tm_contact_wrap .main_input_wrap .wrap input{
+.contact_wrap .main_input_wrap .wrap{margin-bottom: 20px;}
+.contact_wrap .main_input_wrap .wrap input{
   width: 100%;
   text-align: left;
   background-color: transparent;
@@ -165,10 +165,10 @@ export default {
   color: #333;
   padding-left: 0px !important;
 }
-.arlo_tm_contact_wrap .main_input_wrap .wrap input:focus{
+.contact_wrap .main_input_wrap .wrap input:focus{
   outline: none;
 }
-.arlo_tm_contact_wrap .main_input_wrap .wrap textarea{
+.contact_wrap .main_input_wrap .wrap textarea{
   width: 100%;
   height: 80px;
   text-align: left;
@@ -178,10 +178,10 @@ export default {
   color: #333;
   padding-left: 0px !important;
 }
-.arlo_tm_contact_wrap .main_input_wrap .wrap textarea:focus{
+.contact_wrap .main_input_wrap .wrap textarea:focus{
   outline: none;
 }
-.arlo_tm_contact_wrap .arlo_tm_button a{
+.contact_wrap .send_button a{
   text-decoration: none;
   color: #fff;
   background-color: #E3872D;
@@ -193,7 +193,7 @@ export default {
   position: relative;
   overflow: hidden;
 }
-.arlo_tm_contact_wrap .arlo_tm_button a:before{
+.contact_wrap .send_button a:before{
   position: absolute;
   content: "";
   top: 0px;
@@ -205,28 +205,28 @@ export default {
   transition-duration: .6s;
   z-index: 1;
 }
-.arlo_tm_contact_wrap .arlo_tm_button a:hover:before{width: 170%;}
-.arlo_tm_contact_wrap .arlo_tm_button a span{
+.contact_wrap .send_button a:hover:before{width: 170%;}
+.contact_wrap .send_button a span{
   position: relative;
   z-index: 2;
 }
-.arlo_tm_contact_wrap .empty_notice{
+.contact_wrap .empty_notice{
   color: #BD0A0D;
   margin-bottom: 7px;
   display: none;
   text-align: left;
 }
-.arlo_tm_contact_wrap .contact_error{
+.contact_wrap .contact_error{
   color: rgba(255,0,4,1.00);
   text-align: left;
 }
-.arlo_tm_contact_wrap .returnmessage{
+.contact_wrap .returnmessage{
   color:#0064FF;
   margin-bottom: 7px;
   text-align: left;
 }
 
-.arlo_tm_footer_wrap{
+.footer_wrap{
   width: 100%;
   height: auto;
   clear: both;
@@ -239,8 +239,8 @@ export default {
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_footer_wrap p{color: #fff;}
-.arlo_tm_footer_wrap p a{
+.footer_wrap p{color: #fff;}
+.footer_wrap p a{
   text-decoration: none;
   color: #fff;
   font-family: "Montserrat";

@@ -237,14 +237,21 @@ img.svg{
 	font-size: 24px;
 	font-family: "Montserrat";
 }
-.animation_text_word{
+
+/*animation_text_word*/
+
+.animation_text_word1, animation_text_word2{
 	font-weight: 600;
 	line-height: 1;
 	font-family: "Montserrat";
 }
-.arlo_tm_about_wrap {color: #E3872D;}
-.animation_text_word1,.animation_text_word2{color: #E3872D;}
-.arlo_tm_arrow_wrap{
+.animation_text_word1{color: #E3872D;}
+.animation_text_word2{color: #E3872D;}
+
+
+/*.arrow_to_about */
+
+.arrow_to_about{
 	position: absolute;
 	left: 50%;
 	bottom: 5%;
@@ -252,9 +259,10 @@ img.svg{
 	margin-left: -21px;
 	z-index: 55;
 }
-.arlo_tm_arrow_wrap.bounce {
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite; }
+
+.arrow_to_about.bounce {
+	-webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite; }
 
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -277,12 +285,11 @@ img.svg{
   60% {
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px); } }
-.arlo_tm_arrow_wrap a{
+.arrow_to_about a{
 	text-decoration: none;
 	color: #fff;
 	font-size: 30px;
 }
-
 
 
 /*---------------------------------------------------*/
@@ -628,7 +635,7 @@ img.svg{
 	font-size: 16px;
 	padding: 5px 45px;
 }
-.arlo_tm_footer_wrap.intro{
+.footer_wrap.intro{
 	padding-left: 40px;
 	padding-right: 40px;
 	text-align: center;

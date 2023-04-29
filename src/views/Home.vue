@@ -1,6 +1,6 @@
 <template>
   <div class="home_page" :style="homePageStyle">
-    <home-home/>
+    <home-home ref="homeHome"/>
     <home-about/>
     <home-skills/>
     <home-services/>
@@ -8,7 +8,7 @@
 <!--    <home-transition/>-->
     <home-blogs/>
     <home-contact/>
-    <to-top/>
+    <to-top ref="toTop"/>
   </div>
 </template>
 
@@ -50,10 +50,9 @@ export default {
         }
       }
     });
-    // 获取 home-home 元素
-    const homeHome = document.getElementById('home');
-    // 获取 to-top 元素
-    const toTop = document.getElementById('to_top');
+    // 通过ref 获取 home-home 元素 和 to-top 元素
+    const homeHome = this.$refs.homeHome.$el;
+    const toTop = this.$refs.toTop.$el;
 
     // 监听滚动事件
     window.addEventListener('scroll', function() {

@@ -102,7 +102,7 @@ export default {
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_portfolio_wrapper_all .arlo_tm_button{text-align: center;}
+.arlo_tm_portfolio_wrapper_all .send_button{text-align: center;}
 .arlo_tm_portfolio_wrap{
   width: 100%;
   height: auto;
