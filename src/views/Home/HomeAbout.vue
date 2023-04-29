@@ -152,7 +152,7 @@ export default {
 }
 .title_holder span{
   font-size: 16px;
-  font-family: "Montserrat";
+  font-family: "OPPOSans M";
   padding-left: 25px;
 }
 .about_wrapper_all{
@@ -186,7 +186,7 @@ export default {
 }
 .arlo_tm_main_title_holder h3{
   font-weight: 900;
-  font-family: "Montserrat";
+  font-family: "OPPOSans M";
   color: #041230;
   font-size: 30px;
   line-height: 1;
@@ -231,7 +231,7 @@ export default {
 }
 .arlo_tm_main_title_holder h3{
   font-weight: 900;
-  font-family: "Montserrat";
+  font-family: "OPPOSans M";
   color: #041230;
   font-size: 30px;
   line-height: 1;
@@ -324,7 +324,7 @@ export default {
   margin-bottom: 20px;
 }
 .arlo_tm_about_wrap .subtitle p{
-  font-family: "Montserrat";
+  font-family: "OPPOSans M";
   color: #333;
   font-size: 15px;
   font-weight: 600;
@@ -356,7 +356,7 @@ export default {
 }
 .arlo_tm_about_wrap .about_short_contact_wrap ul li:nth-of-type(2n){clear: right;}
 .about_short_contact_wrap ul li label{
-  font-family: "Montserrat";
+  font-family: "OPPOSans M";
   font-weight: 700;
   font-size: 13px;
   color: #000;
@@ -403,7 +403,7 @@ export default {
   color: #fff;
   background-color: #E3872D;
   font-weight: 600;
-  font-family: "Montserrat";
+  font-family: "OPPOSans M";
   padding: 12px 35px;
   border-radius: 3px;
   display: inline-block;
@@ -423,143 +423,9 @@ export default {
   z-index: 1;
 }
 .arlo_tm_about_wrap .buttons_wrap ul li a:hover:before{width: 180%;}
-.arlo_tm_skills_wrap,
-.arlo_tm_skills_wrap .inner_wrap{
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
 
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box; /* Firefox, other Gecko */
-  box-sizing: border-box; /* Opera/IE 8+ */
-}
-.arlo_tm_skills_wrap{
-  background-color: #f6f7fd;
-  padding: 90px 0px;
-  margin-bottom: 100px;
-}
-.arlo_tm_skills_wrap .inner_wrap{display: flex;}
-.arlo_tm_skills_wrap .leftbox{
-  width: 35%;
-  height: auto;
-  clear: both;
-  float: left;
-  padding-right:0px;
 
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box; /* Firefox, other Gecko */
-  box-sizing: border-box; /* Opera/IE 8+ */
-}
-.arlo_tm_skills_wrap .rightbox{
-  width: 65%;
-  height: auto;
-  clear: both;
-  float: right;
-  padding-left: 65px;
 
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box; /* Firefox, other Gecko */
-  box-sizing: border-box; /* Opera/IE 8+ */
-}
-.progress_bar_wrap_total{
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
-  margin-bottom: 10px;
-  position: relative;
-  margin-top: -4px;
-
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box; /* Firefox, other Gecko */
-  box-sizing: border-box; /* Opera/IE 8+ */
-}
-.arlo_tm_progress_wrap[data-size="big"] .arlo_tm_progress .arlo_tm_bar_bg{height:40px;}
-.arlo_tm_progress_wrap[data-size="small"] .arlo_tm_progress .arlo_tm_bar_bg{height:5px;}
-
-.arlo_tm_progress_wrap[data-round="a"] .arlo_tm_progress .arlo_tm_bar_bg,
-.arlo_tm_progress_wrap[data-round="a"] .arlo_tm_progress .arlo_tm_bar{
-  -webkit-border-radius:2px;
-  -moz-border-radius:2px;
-  border-radius:2px;
-}
-.arlo_tm_progress_wrap[data-round="b"] .arlo_tm_progress .arlo_tm_bar_bg,
-.arlo_tm_progress_wrap[data-round="b"] .arlo_tm_progress .arlo_tm_bar{
-  -webkit-border-radius:5px;
-  -moz-border-radius:5px;
-  border-radius:5px;
-}
-.arlo_tm_progress_wrap[data-round="c"] .arlo_tm_progress .arlo_tm_bar_bg,
-.arlo_tm_progress_wrap[data-round="c"] .arlo_tm_progress .arlo_tm_bar{
-  -webkit-border-radius:50px;
-  -moz-border-radius:50px;
-  border-radius:50px;
-}
-.arlo_tm_progress{
-  width:100%;
-  margin-bottom:16px;
-}
-.arlo_tm_progress:last-child{margin-bottom: 0px;}
-.arlo_tm_progress > span{
-  margin:0px 0px 3px 0px;
-  width:100%;
-  display:block;
-  text-align:left;
-}
-.arlo_tm_progress span.label{
-  font-size:13px;
-  font-weight:700;
-  color:#000;
-  font-family: "Montserrat";
-}
-.arlo_tm_progress span.label .experience{font-size: 12px;font-weight: 600;}
-.arlo_tm_progress span.number{
-  float:right;
-  font-size:13px;
-  color:#000;
-  font-weight: 700;
-  font-family: "Montserrat";
-}
-.arlo_tm_progress .arlo_tm_bar_bg{
-  background:rgba(0,0,0,.1);
-  width:100%;
-  min-width:100%;
-  position:relative;
-  height:20px;
-}
-.arlo_tm_progress .arlo_tm_bar_bg .arlo_tm_bar_wrap{
-  width:0px;
-  height:100%;
-}
-.arlo_tm_progress .arlo_tm_bar_bg .arlo_tm_bar_wrap.open{
-  -webkit-animation: arlo_tm_expand 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Safari 4+ */
-  -moz-animation:    arlo_tm_expand 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Fx 5+ */
-  animation:         arlo_tm_expand 3s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* IE 10+ */
-  width:100%;
-}
-.arlo_tm_progress .arlo_tm_bar_bg .arlo_tm_bar{
-  height:100%;
-  background:#333;
-  width:0px;
-  overflow:hidden;
-}
-.arlo_tm_progress_wrap[data-strip="on"] .arlo_tm_progress .arlo_tm_bar{
-  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 75%, transparent 75%, transparent);
-
-  -webkit-animation: arlo_tm_bar_move 4s linear infinite;
-  -moz-animation: arlo_tm_bar_move 4s linear infinite;
-  animation: arlo_tm_bar_move 4s linear infinite;
-  background-size: 50px 50px;
-}
-@-webkit-keyframes arlo_tm_bar_move {0%{background-position: 0 0;} 100% {background-position: 50px 50px;}}
-@-moz-keyframes arlo_tm_bar_move {0%{background-position: 0 0;} 100% {background-position: 50px 50px;}}
-@keyframes arlo_tm_bar_move {0%{background-position: 0 0;} 100% {background-position: 50px 50px;}}
-
-/*expand width animation*/
-@-webkit-keyframes arlo_tm_expand {0%{ width:0%; } 100%{ width:100%; }}
-@-moz-keyframes arlo_tm_expand {0%{ width:0%; } 100%{ width:100%; }}
-@keyframes arlo_tm_expand {0%{ width:0%; } 100%{ width:100%; }}
 
 .mini_title_holder{
   width: 100%;

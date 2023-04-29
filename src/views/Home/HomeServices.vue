@@ -1,79 +1,46 @@
 <template>
   <!-- SERVICES -->
   <div class="home_page_section" id="services">
-    <div class="arlo_tm_services_wrap">
+    <div class="services_wrap">
       <div class="container">
         <div class="title_holder">
           <h3>Amazing Services</h3>
-          <span>Meet our amazing services</span>							</div>
+          <span>Services that i supply</span>							</div>
         <div class="list_wrap">
           <ul>
             <li>
               <div class="inner">
                 <div class="icon">
-                  <img class="svg" src="img/svg/camera-diaphragm.svg" alt="" />											</div>
+                  <img class="svg" src="@/assets/img/svg/camera-diaphragm.svg" alt="" />											</div>
                 <div class="title_service">
-                  <h3>Photography</h3>
+                  <h3>Back-end</h3>
                 </div>
                 <div class="text">
                   <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
                 </div>
               </div>
             </li>
+
             <li>
               <div class="inner">
                 <div class="icon">
-                  <img class="svg" src="img/svg/new-tab.svg" alt="" />											</div>
+                  <img class="svg" src="@/assets/img/svg/new-tab.svg" alt="" />											</div>
                 <div class="title_service">
-                  <h3>Web Design</h3>
+                  <h3>Front-end</h3>
                 </div>
                 <div class="text">
                   <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
                 </div>
               </div>
             </li>
+
+
             <li>
               <div class="inner">
                 <div class="icon">
-                  <img class="svg" src="img/svg/layers.svg" alt="" />											</div>
+                  <img class="svg" src="@/assets/img/svg/adobe-illustrator.svg" alt="" />											</div>
                 <div class="title_service">
-                  <h3>Branding</h3>
-                </div>
-                <div class="text">
-                  <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="inner">
-                <div class="icon">
-                  <img class="svg" src="img/svg/share.svg" alt="" />											</div>
-                <div class="title_service">
-                  <h3>Social Media</h3>
-                </div>
-                <div class="text">
-                  <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="inner">
-                <div class="icon">
-                  <img class="svg" src="img/svg/adobe-illustrator.svg" alt="" />											</div>
-                <div class="title_service">
-                  <h3>Illustrator</h3>
-                </div>
-                <div class="text">
-                  <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="inner">
-                <div class="icon">
-                  <img class="svg" src="img/svg/seo-performance-marketing-graphic.svg" alt="" />											</div>
-                <div class="title_service">
-                  <h3>Marketing</h3>
+                  <h3>Design</h3>
                 </div>
                 <div class="text">
                   <p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
@@ -100,7 +67,7 @@ export default {
 /*	04) ARLO SERVICES
 /*---------------------------------------------------*/
 
-.arlo_tm_services_wrap{
+.services_wrap{
   width: 100%;
   height: auto;
   clear: both;
@@ -113,8 +80,8 @@ export default {
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_services_wrap .arlo_tm_title_holder_wrap{margin-bottom: 93px;}
-.arlo_tm_services_wrap .list_wrap{
+.services_wrap .arlo_tm_title_holder_wrap{margin-bottom: 93px;}
+.services_wrap .list_wrap{
   width: 100%;
   height: auto;
   clear: both;
@@ -124,11 +91,11 @@ export default {
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_services_wrap .list_wrap ul{
+.services_wrap .list_wrap ul{
   margin: 0px 0px 0px -30px;
   list-style-type: none;
 }
-.arlo_tm_services_wrap .list_wrap ul li{
+.services_wrap .list_wrap ul li{
   margin: 0px 0px 30px 0px;
   float: left;
   width: 33.3333%;
@@ -138,7 +105,7 @@ export default {
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_services_wrap .list_wrap ul li .inner{
+.services_wrap .list_wrap ul li .inner{
   width: 100%;
   height: auto;
   clear: both;
@@ -158,20 +125,21 @@ export default {
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_services_wrap .list_wrap ul li .inner:hover{top: -5px;}
-.arlo_tm_services_wrap .list_wrap ul li .icon{margin-bottom: 21px;}
-.arlo_tm_services_wrap .list_wrap ul li .icon .svg{
+.services_wrap .list_wrap ul li .inner:hover{top: -5px;}
+.services_wrap .list_wrap ul li .icon{margin-bottom: 21px;}
+.services_wrap .list_wrap ul li .icon .svg{
   width: 40px;
   height: 40px;
   color: #E3872D;
 }
-.arlo_tm_services_wrap .list_wrap ul li .title_service{margin-bottom: 17px;}
-.arlo_tm_services_wrap .list_wrap ul li .title_service h3{
-  font-family: "Montserrat";
+.services_wrap .list_wrap ul li .title_service{margin-bottom: 17px;}
+.services_wrap .list_wrap ul li .title_service h3{
+  font-family: "OPPOSans M";
   font-size: 22px;
   font-weight: 600;
   color: #000000;
   line-height: 1;
 }
+
 
 </style>

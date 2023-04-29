@@ -213,7 +213,7 @@ img.svg{
 	border: 8px solid rgba(255,255,255,.5);
 }
 .header_wrap .name_holder h3{
-	font-family: "Montserrat";
+	font-family: "OPPOSans M";
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 50px;
@@ -235,7 +235,7 @@ img.svg{
 .header_wrap .text_typing p{
 	color: #fff;
 	font-size: 24px;
-	font-family: "Montserrat";
+	font-family: "OPPOSans M";
 }
 
 /*animation_text_word*/
@@ -243,7 +243,7 @@ img.svg{
 .animation_text_word1, animation_text_word2{
 	font-weight: 600;
 	line-height: 1;
-	font-family: "Montserrat";
+	font-family: "OPPOSans M";
 }
 .animation_text_word1{color: #E3872D;}
 .animation_text_word2{color: #E3872D;}
@@ -349,7 +349,7 @@ img.svg{
 }
 .arlo_tm_counter_list li:nth-child(4) .inner:before{display: none;}
 .arlo_tm_counter_list li h3{
-	font-family: "Montserrat";
+	font-family: "OPPOSans M";
 	color: #181a2f;
 	margin-bottom: 10px;
 }
@@ -392,6 +392,22 @@ img.svg{
 	right: 0px;
 	background-color:rgba(7,23,55,.8);
 }
+
+/*---------------------------------------------------*/
+/*	skills bar animation
+/*---------------------------------------------------*/
+
+/*@-webkit-keyframes bar_move {0%{background-position: 0 0;} 100% {background-position: 50px 50px;}}*/
+/*@-moz-keyframes arlo_tm_bar_move {0%{background-position: 0 0;} 100% {background-position: 50px 50px;}}*/
+/*@keyframes arlo_tm_bar_move {0%{background-position: 0 0;} 100% {background-position: 50px 50px;}}*/
+
+/*!*expand width animation*!*/
+/*@-webkit-keyframes arlo_tm_expand {0%{ width:0%; } 100%{ width:100%; }}*/
+/*@-moz-keyframes arlo_tm_expand {0%{ width:0%; } 100%{ width:100%; }}*/
+/*@keyframes arlo_tm_expand {0%{ width:0%; } 100%{ width:100%; }}*/
+
+
+
 
 /*---------------------------------------------------*/
 /*	12) ARLO RIPPLE HOMEPAGE
@@ -505,7 +521,7 @@ img.svg{
 	color: #FFFFFF;
 	font-size: 25px;
 	font-weight: 500;
-	font-family: "Montserrat";
+	font-family: "OPPOSans M";
 }
 .arlo_tm_intro_universal_bg_wrap .purchase_button a span{
 	position: relative;
@@ -516,7 +532,7 @@ img.svg{
     color: #fff;
     background-color: #fd4d4d;
     font-weight: 600;
-    font-family: "Montserrat";
+    font-family: "OPPOSans M";
     padding: 12px 40px;
     border-radius: 3px;
     display: inline-block;
@@ -562,7 +578,7 @@ img.svg{
 	font-weight: 600;
 	padding: 80px 0px;
 	text-transform: uppercase;
-	font-family: "Montserrat";
+	font-family: "OPPOSans M";
 }
 .arlo_tm_main_demos_title.another span{padding-top: 20px !important;}
 .arlo_tm_main_demos_list_wrap ul{
@@ -611,7 +627,7 @@ img.svg{
 .arlo_tm_main_demos_list_wrap ul li .inner .name span a{
 	text-decoration: none;
 	color: #000;
-	font-family: "Montserrat";
+	font-family: "OPPOSans M";
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -688,7 +704,7 @@ img.svg{
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .arlo_tm_portfolio_single_wrap .details_wrap .name_holder h3{
-	font-family: "Montserrat";
+	font-family: "OPPOSans M";
     font-size: 22px;
     font-weight: 600;
     color: #000000;
@@ -920,7 +936,7 @@ img.svg{
 .arlo_tm_mobile_menu_wrap .mob_menu > ul > li a{
 	text-decoration: none;
 	color: #fff;
-	font-family: "Montserrat";
+	font-family: "OPPOSans M";
 	font-weight: 600;
 	font-size: 19px;
 }
@@ -933,7 +949,7 @@ img.svg{
 	.arlo_tm_about_wrap .leftbox{padding-right: 0px;}
 }
 @media (max-width: 1200px) {
-	.arlo_tm_services_wrap .list_wrap ul li{width: 50%;}
+	.services_wrap .list_wrap ul li{width: 50%;}
 	#arlo_tm_popup_blog .close{right: 0px;}
 	.arlo_tm_list_wrap > ul.total > li{width: 50%;}
 	.arlo_tm_about_wrap .leftbox{display: none;}
@@ -946,9 +962,9 @@ img.svg{
 	.arlo_tm_about_wrap .rightpart .info_list ul li{width: 100%;}
 	.arlo_tm_about_wrap .leftpart{width: 100%;padding-right: 0px;margin-bottom: 60px;}
 	.arlo_tm_about_wrap .rightpart{width: 100%;}
-	.arlo_tm_skills_wrap .inner_wrap{flex-direction: column;}
-	.arlo_tm_skills_wrap .leftbox{padding-right: 0px;width: 100%;margin-bottom: 60px;}
-	.arlo_tm_skills_wrap .rightbox{width: 100%;padding-left: 0px;}
+	.skills_wrap .inner_wrap{flex-direction: column;}
+	.skills_wrap .leftbox{padding-right: 0px;width: 100%;margin-bottom: 60px;}
+	.skills_wrap .rightbox{width: 100%;padding-left: 0px;}
 	.arlo_tm_main_demos_list_wrap ul{margin: 0px;}
 	.arlo_tm_main_demos_list_wrap ul li{width: 100%;padding: 0px;}
 	.arlo_tm_portfolio_single_wrap .details_wrap{flex-direction: column;}
@@ -964,8 +980,8 @@ img.svg{
 	.header_wrap .text_typing p{font-size: 21px;}
 	.title_holder h3{font-size: 45px;}
 	.title_holder:before{top: -2px;}
-	.arlo_tm_services_wrap .list_wrap ul{margin: 0px;}
-	.arlo_tm_services_wrap .list_wrap ul li{width: 100%;padding-left: 0px;}
+	.services_wrap .list_wrap ul{margin: 0px;}
+	.services_wrap .list_wrap ul li{width: 100%;padding-left: 0px;}
 	.arlo_tm_counter_list li{width: 50%;}
 	.arlo_tm_counter_list li .inner{padding: 45px 15px 48px 15px;}
 	.arlo_tm_portfolio_list > li{width: 50%;}
