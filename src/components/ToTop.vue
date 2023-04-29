@@ -1,5 +1,5 @@
 <template>
-  <a class="arlo_tm_totop " href="javascript:void(0)" ref="toTop" ></a>
+  <a class="totop " href="javascript:void(0)" ref="toTop" ></a>
 </template>
 
 <script>
@@ -17,7 +17,7 @@ export default {
 
 <style scoped>
 
-.arlo_tm_totop{
+.totop{
   position: fixed;
   bottom: 40px;
   right: 55px;
@@ -39,7 +39,7 @@ export default {
   -o-transition: all .5s ease;
   transition: all .5s ease;
 }
-.arlo_tm_totop:before{
+.totop:before{
   position: absolute;
   content: "";
   top: 0px;
@@ -51,7 +51,7 @@ export default {
   transition-duration: .6s;
   z-index: 1;
 }
-.arlo_tm_totop:after{
+.totop:after{
   width: 0px;
   height: 0px;
   position: absolute;
@@ -62,11 +62,10 @@ export default {
   left: 17px;
   z-index: 2;
 }
-.arlo_tm_totop:hover:before{width: 290%;}
-.arlo_tm_totop.opened{
+.totop:hover:before{width: 290%;}
+.totop.opened{
   opacity: 1;
   visibility: visible;
   bottom: 55px;
 }
-
 </style>

@@ -14,7 +14,9 @@
           <li>
             <router-link to="/index#about">About</router-link>
           </li>
-
+          <li>
+            <router-link to="/index#services">Services</router-link>
+          </li>
           <li>
             <router-link to="/index#projects">Projects</router-link>
           </li>

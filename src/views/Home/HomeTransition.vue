@@ -211,7 +211,7 @@ export default {
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
 }
-.universal_box_wrap .overlay_image.testimonial{background-image: url(..//img/hero/3.jpg);}
+.universal_box_wrap .overlay_image.testimonial{background-image: url("../src/assets/img/hero/3.jpg");}
 .universal_box_wrap .overlay_color.testimonial{background-color: rgba(7,23,55,.8);}
 .universal_box_wrap .content.testimonial{padding: 82px 0px 90px 0px;}
 </style>

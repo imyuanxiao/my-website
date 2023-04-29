@@ -3,7 +3,7 @@
   <div class="home_page_section" id="blogs">
     <div class="arlo_tm_news_wrap">
       <div class="container">
-        <div class="arlo_tm_title_holder news">
+        <div class="title_holder news">
           <h3>Latest News</h3>
           <span>Check out our latest News</span>							</div>
         <div class="arlo_tm_list_wrap blog_list">
@@ -14,13 +14,13 @@
                   <img class="small" src="@/assets/img/blog/500x350.jpg" alt="" />
                   <img class="big" src="@/assets/img/blog/1170x450.jpg" alt="" />
                   <div class="news_image" data-url="img/blog/1.jpg"></div>
-                  <a class="link_news" href="index.html"></a>											</div>
+                  <a class="link_news" href="../../../index.html"></a>											</div>
                 <div class="definitions_wrap">
                   <div class="date_wrap">
-                    <p>January 22, 2018 <a href="index.html">Logos</a></p>
+                    <p>January 22, 2018 <a href="../../../index.html">Logos</a></p>
                   </div>
                   <div class="title_holder">
-                    <h3><a href="index.html">How to Create Great Logo for Your Business</a></h3>
+                    <h3><a href="../../../index.html">How to Create Great Logo for Your Business</a></h3>
                   </div>
                   <div class="definition">
                     <p>If you are reading this, you probably plan to start a small business or a side hustle very soon. And you probably have ...</p>
@@ -47,13 +47,13 @@
                   <img class="small" src="@/assets/img/blog/500x350.jpg" alt="" />
                   <img class="big" src="@/assets/img/blog/1170x450.jpg" alt="" />
                   <div class="news_image" data-url="img/blog/2.jpg"></div>
-                  <a class="link_news" href="index.html"></a>											</div>
+                  <a class="link_news" href="../../../index.html"></a>											</div>
                 <div class="definitions_wrap">
                   <div class="date_wrap">
-                    <p>February 07, 2018 <a href="index.html">Illustrator</a></p>
+                    <p>February 07, 2018 <a href="../../../index.html">Illustrator</a></p>
                   </div>
                   <div class="title_holder">
-                    <h3><a href="index.html">How to Autumn Clean Your Design Career?</a></h3>
+                    <h3><a href="../../../index.html">How to Autumn Clean Your Design Career?</a></h3>
                   </div>
                   <div class="definition">
                     <p>Spring cleaning is not just about washing windows and clearing away cobwebs. Your design career also needs a thorough ...</p>
@@ -80,13 +80,13 @@
                   <img class="small" src="@/assets/img/blog/500x350.jpg" alt="" />
                   <img class="big" src="@/assets/img/blog/1170x450.jpg" alt="" />
                   <div class="news_image" data-url="img/blog/3.jpg"></div>
-                  <a class="link_news" href="index.html"></a>											</div>
+                  <a class="link_news" href="../../../index.html"></a>											</div>
                 <div class="definitions_wrap">
                   <div class="date_wrap">
-                    <p>April 12, 2018 <a href="index.html">Branding</a></p>
+                    <p>April 12, 2018 <a href="../../../index.html">Branding</a></p>
                   </div>
                   <div class="title_holder">
-                    <h3><a href="index.html">Innovative Ways to Increase Brand</a></h3>
+                    <h3><a href="../../../index.html">Innovative Ways to Increase Brand</a></h3>
                   </div>
                   <div class="definition">
                     <p>Having a solid, trusted brand is important for your company to thrive. If your target audience does not know or trust ...</p>

@@ -1,48 +1,9 @@
 <template>
-  <!-- SKILLS -->
-  <div class="home_page_section" id="skills">
-    <div class="arlo_tm_skills_wrap">
-      <div class="container">
-        <div class="inner_wrap">
-          <div class="leftbox">
-            <div class="arlo_tm_mini_title_holder">
-              <h4>Some About my Abilities</h4>
-            </div>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry. Lorem Ipsum has been the industry's standard dummy text since. Lorem Ipsum is simply.</p>
-          </div>
-          <div class="rightbox">
-            <div class="progress_bar_wrap_total">
-              <div class="arlo_tm_progress_wrap" data-size="small" data-round="c" data-strip="off">
-                <div class="arlo_tm_progress" data-value="95" data-color="#000">
-                  <span><span class="label">Wordpress - <span class="experience">5 years of experience</span></span><span class="number">95%</span></span>
-                  <div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
-                </div>
-                <div class="arlo_tm_progress" data-value="85" data-color="#000">
-                  <span><span class="label">Css - <span class="experience">3 years of experience</span></span><span class="number">85%</span></span>
-                  <div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
-                </div>
-                <div class="arlo_tm_progress" data-value="75" data-color="#000">
-                  <span><span class="label">HTML - <span class="experience">4 years of experience</span></span><span class="number">75%</span></span>
-                  <div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
-                </div>
-                <div class="arlo_tm_progress" data-value="90" data-color="#000">
-                  <span><span class="label">After Effect - <span class="experience">6 years of experience</span></span><span class="number">90%</span></span>
-                  <div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- /SKILLS -->
-
   <!-- SERVICES -->
   <div class="home_page_section" id="services">
     <div class="arlo_tm_services_wrap">
       <div class="container">
-        <div class="arlo_tm_title_holder">
+        <div class="title_holder">
           <h3>Amazing Services</h3>
           <span>Meet our amazing services</span>							</div>
         <div class="list_wrap">
@@ -125,15 +86,92 @@
     </div>
   </div>
   <!-- /SERVICES -->
-
 </template>
 
 <script>
 export default {
-  name: "HomeSkills"
+  name: "HomeServices"
 }
 </script>
 
 <style scoped>
+
+/*---------------------------------------------------*/
+/*	04) ARLO SERVICES
+/*---------------------------------------------------*/
+
+.arlo_tm_services_wrap{
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  background-color: #fff;
+  margin-bottom: 70px;
+  text-align: left;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+}
+.arlo_tm_services_wrap .arlo_tm_title_holder_wrap{margin-bottom: 93px;}
+.arlo_tm_services_wrap .list_wrap{
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+}
+.arlo_tm_services_wrap .list_wrap ul{
+  margin: 0px 0px 0px -30px;
+  list-style-type: none;
+}
+.arlo_tm_services_wrap .list_wrap ul li{
+  margin: 0px 0px 30px 0px;
+  float: left;
+  width: 33.3333%;
+  padding-left: 30px;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+}
+.arlo_tm_services_wrap .list_wrap ul li .inner{
+  width: 100%;
+  height: auto;
+  clear: both;
+  float: left;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  padding: 40px 40px 33px 40px;
+  top: 0px;
+
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+}
+.arlo_tm_services_wrap .list_wrap ul li .inner:hover{top: -5px;}
+.arlo_tm_services_wrap .list_wrap ul li .icon{margin-bottom: 21px;}
+.arlo_tm_services_wrap .list_wrap ul li .icon .svg{
+  width: 40px;
+  height: 40px;
+  color: #E3872D;
+}
+.arlo_tm_services_wrap .list_wrap ul li .title_service{margin-bottom: 17px;}
+.arlo_tm_services_wrap .list_wrap ul li .title_service h3{
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 1;
+}
 
 </style>

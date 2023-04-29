@@ -18,9 +18,9 @@
             <div class="name_holder">
               <h3>Xiao <span>Yuan</span></h3>
             </div>
-            <!--                <div class="text_typing">-->
-            <!--                  <p>I'm a <span class="arlo_tm_animation_text_word"></span></p>-->
-            <!--                </div>-->
+            <div class="text_typing">
+              <p>I'm a <span class="animation_text_word1"></span></p>
+            </div>
           </div>
         </div>
 
@@ -40,6 +40,7 @@ export default {
   name: "HomeHome",
 
   setup() {
+
     function smoothScroll(target) {
       $('html, body').animate({
         scrollTop: $(target).offset().top

@@ -2,7 +2,7 @@
   <!-- CONTACT & FOOTER -->
   <div class="home_page_section" id="contact">
     <div class="container">
-      <div class="arlo_tm_title_holder contact">
+      <div class="title_holder contact">
         <h3>Contact Me</h3>
         <span>Get in touch with me</span>						</div>
     </div>
@@ -10,7 +10,7 @@
       <div class="arlo_tm_contact_wrap_all">
         <div class="container">
           <div class="leftbox">
-            <div class="arlo_tm_mini_title_holder contact">
+            <div class="mini_title_holder contact">
               <h4>Get in Touch</h4>
             </div>
             <div class="short_info_wrap">

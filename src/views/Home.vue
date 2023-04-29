@@ -1,31 +1,35 @@
 <template>
   <div class="home_page" :style="homePageStyle">
-    <home-home id="home"/>
-    <home-about id="about"/>
-    <home-skills id="skills"/>
-    <home-projects id="projects"/>
-    <home-transition/>
-    <home-blogs id="blogs"/>
-    <home-contact id="contact"/>
-    <to-top id="to_top"/>
+    <home-home/>
+    <home-about/>
+    <home-skills/>
+    <home-services/>
+    <home-projects/>
+<!--    <home-transition/>-->
+    <home-blogs/>
+    <home-contact/>
+    <to-top/>
   </div>
 </template>
 
 <script>
 import {mapState} from "vuex";
 
-import HomeAbout from "@/components/HomeAbout.vue";
-import HomeSkills from "@/components/HomeSkills.vue";
-import HomeProjects from "@/components/HomeProjects.vue";
-import HomeContact from "@/components/HomeContact.vue";
-import HomeBlogs from "@/components/HomeBlogs.vue";
-import HomeHome from "@/components/HomeHeader.vue";
-import HomeTransition from "@/components/HomeTransition.vue";
+import HomeAbout from "@/views/Home/HomeAbout.vue";
+import HomeSkills from "@/views/Home/HomeSkills.vue";
+import HomeProjects from "@/views/Home/HomeProjects.vue";
+import HomeContact from "@/views/Home/HomeContact.vue";
+import HomeBlogs from "@/views/Home/HomeBlogs.vue";
+import HomeHome from "@/views/Home/HomeHeader.vue";
+import HomeTransition from "@/views/Home/HomeTransition.vue";
 import ToTop from "@/components/ToTop.vue";
+import HomeServices from "views/Home/HomeServices.vue";
 
 export default {
   name: "Home",
-  components: {ToTop, HomeTransition, HomeHome, HomeBlogs, HomeContact, HomeProjects, HomeSkills, HomeAbout},
+  components: {
+    HomeServices,
+    ToTop, HomeTransition, HomeHome, HomeBlogs, HomeContact, HomeProjects, HomeSkills, HomeAbout},
   computed: {
     ...mapState(['padding']),
     homePageStyle() {
@@ -35,6 +39,8 @@ export default {
     },
   },
   mounted() {
+
+    /*向上TO TOP按钮*/
     this.$router.afterEach((to, from) => {
       const hash = to.hash;
       if (hash) {
