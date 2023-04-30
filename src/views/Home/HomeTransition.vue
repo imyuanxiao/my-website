@@ -9,32 +9,20 @@
         <div class="content testimonial">
           <div class="arlo_tm_testimonial_wrap">
             <div class="container">
-              <van-swipe class="carousel_wrap" :autoplay="3000" indicator-color="white" :show-indicators="false">
-                <van-swipe-item class="item">
-                  <div class="inner">
-                    <div class="quotebox_wrap">
-                      <i class="xcon-quote-left"></i>														</div>
-                    <div class="definitions_wrap">
-                      <p>“Arlo team are easy to work with and helped me make amazing websites in a short amount of time. Thanks guys for works.”</p>
+              <el-carousel class="carousel_wrap" indicator-position="outside" arrow="never">
+                <el-carousel-item  class="item" v-for="item in 4" :key="item">
+                    <div class="inner">
+                      <div class="quotebox_wrap">
+                        <i class="xcon-quote-left"></i>														</div>
+                      <div class="definitions_wrap">
+                        <p>“Arlo team are easy to work with and helped me make amazing websites in a short amount of time. Thanks guys for works.”</p>
+                      </div>
+                      <div class="name_holder">
+                        <p>{{ item }}</p>
+                      </div>
                     </div>
-                    <div class="name_holder">
-                      <p>Antonio Baraley, CEO Founder</p>
-                    </div>
-                  </div>
-                </van-swipe-item>
-                <van-swipe-item class="item">
-                  <div class="inner">
-                    <div class="quotebox_wrap">
-                      <i class="xcon-quote-left"></i>														</div>
-                    <div class="definitions_wrap">
-                      <p>“We were looking for a logo with a touch of modernism. Arlo grasped our needs and produced a stunning design.”</p>
-                    </div>
-                    <div class="name_holder">
-                      <p>Calena Gomez, AOC Designer</p>
-                    </div>
-                  </div>
-                </van-swipe-item>
-              </van-swipe>
+                </el-carousel-item>
+              </el-carousel>
             </div>
           </div>
         </div>

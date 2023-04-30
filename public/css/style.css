@@ -1151,6 +1151,7 @@ img.svg{
     -moz-box-sizing: border-box; /* Firefox, other Gecko */
     box-sizing: border-box; /* Opera/IE 8+ */
 }
+
 .arlo_tm_portfolio_filter li{
     display:inline-block;
     margin:0px 40px 0px 0px;
@@ -1177,36 +1178,22 @@ img.svg{
 
 .arlo_tm_portfolio_list{
     list-style-type:none;
-    margin: 0px 0px 0px -30px;
+    margin: 0px 0px 0px 0px;
 
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box; /* Firefox, other Gecko */
     box-sizing: border-box; /* Opera/IE 8+ */
 }
-.arlo_tm_portfolio_list > li{
-    width:33.3333%;
-    float:left;
-    position:relative;
-    margin: 0px 0px 30px 0px;
-    padding-left: 30px;
 
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box; /* Firefox, other Gecko */
-    box-sizing: border-box; /* Opera/IE 8+ */
+
+.arlo_tm_portfolio_list .project_image{
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+    object-position: center;
 }
-.arlo_tm_portfolio_list li img{min-width: 100%;}
-.arlo_tm_portfolio_titles {
-    white-space: nowrap;
-    background: #ffffff;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 5px 15px;
-    color: #000000;
-    position: fixed;
-    z-index: 1000;
-    opacity: 0;
-    visibility: hidden;
-}
+
+
 .arlo_tm_portfolio_titles.visible {
     opacity: 1;
     visibility: visible;
@@ -1446,7 +1433,8 @@ img.svg{
     z-index: 22;
 }
 .arlo_tm_news_wrap .arlo_tm_list_wrap .inner_list{
-    background-color: #fff;
+    background-color: #f6f7fd;
+    /*background-color: #fff;*/
     border-radius: 3px;
 }
 .arlo_tm_news_wrap .definitions_wrap{padding: 40px 30px 47px 30px;}
@@ -2372,7 +2360,61 @@ img.svg{
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-.arlo_tm_portfolio_single_wrap .pagination_wrap a:hover{color: #E3872D;}
+.arlo_tm_portfolio_wrap .pagination_wrap a:hover{color: #E3872D;}
+
+.arlo_tm_portfolio_wrap .title_holder{margin-bottom: 18px;}
+.arlo_tm_portfolio_wrap .title_holder h3{
+    color: #041230;
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: "OPPOSans M";
+}
+.arlo_tm_portfolio_wrap .title_holder h3 a{
+    text-decoration: none;
+    color: #041230;
+    font-size: 22px;
+    display: block;
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.arlo_tm_portfolio_wrap .title_holder h3 a:hover{color: #E3872D;}
+.arlo_tm_portfolio_wrap .definition{margin-bottom: 26px;}
+.arlo_tm_portfolio_wrap .definition p{color: #333;}
+
+
+.arlo_tm_portfolio_wrap .read_more a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #E3872D;
+    font-weight: 600;
+    font-family: "OPPOSans M";
+    padding: 12px 35px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.arlo_tm_portfolio_wrap .read_more a:before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    height: 100%;
+    left: -25%;
+    width: 0%;
+    background-color: #041230;
+    transform: skew(50deg);
+    transition-duration: .6s;
+    z-index: 1;
+}
+.arlo_tm_portfolio_wrap .read_more a:hover:before{width: 170%;}
+.arlo_tm_portfolio_wrap .read_more a span{
+    position: relative;
+    z-index: 2;
+}
 
 /*---------------------------------------------------*/
 /*	14) ARLO MOBILE HEADER

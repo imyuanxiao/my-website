@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "element-plus": "^2.3.4",
     "jarallax": "^2.1.3",
     "jquery": "^3.6.4",
     "jquery-countto": "^1.2.0",
