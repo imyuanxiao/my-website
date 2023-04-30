@@ -1,16 +1,15 @@
 import { createApp } from 'vue'
-import './style.css'
+import '../public/css/style.css'
 import App from './App.vue'
 import router from "./router";
-// import 'vant/lib/index.css';
 import store from './store';
-
-// import { Icon, Collapse, CollapseItem } from 'vant';
+import Vant from 'vant';
+import 'vant/lib/index.css';
 
 const app = createApp(App);
 
-app.use(router).use(store)
+app.use(router).use(store).use(Vant)
 
-// app.use(Icon).use(Collapse).use(CollapseItem)
 
 app.mount('#app')
+

@@ -1,6 +1,6 @@
 <template>
   <!-- PRELOADER -->
-  <div class="arlo_tm_preloader" :class="{ loaded: isLoaded }">
+  <div class="preloader" :class="{ loaded: isLoaded }">
     <div class="spinner_wrap">
       <div class="spinner"></div>
     </div>
@@ -37,7 +37,7 @@ export default {
 </script>
 
 <style scoped>
-.arlo_tm_preloader{
+.preloader{
   position: fixed;
   background-color: #fff;
   z-index: 9999999;
@@ -50,19 +50,19 @@ export default {
   -webkit-transition-delay: .5s;
   -o-transition-delay: .5s;
   transition-delay: .5s; }
-.arlo_tm_preloader .spinner_wrap{
+.preloader .spinner_wrap{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   z-index: 33333;
 }
-.arlo_tm_preloader.loaded {
+.preloader.loaded {
   opacity: 0;
   visibility: hidden;
 }
-.arlo_tm_preloader:before,
-.arlo_tm_preloader:after{
+.preloader:before,
+.preloader:after{
   content: "";
   position: absolute;
   height: 50%;
@@ -73,14 +73,14 @@ export default {
   -o-transition: .7s all ease;
   transition: .7s all ease;
 }
-.arlo_tm_preloader:before{
+.preloader:before{
   top: 0;
   left: 0;
 }
-.arlo_tm_preloader:after{
+.preloader:after{
   bottom: 0;
   left: 0;
 }
-.arlo_tm_preloader.loaded:before,
-.arlo_tm_preloader.loaded:after{height: 0%;}
+.preloader.loaded:before,
+.preloader.loaded:after{height: 0%;}
 </style>

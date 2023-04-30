@@ -1,19 +1,21 @@
 <template>
-  <div class="home_page" :style="homePageStyle">
-    <home-home ref="homeHome"/>
-    <home-about/>
-    <home-skills/>
-    <home-services/>
-    <home-projects/>
-<!--    <home-transition/>-->
-    <home-blogs/>
-    <home-contact/>
-    <to-top ref="toTop"/>
+  <div class="arlo_tm_rightpart" :class="{ opened: isFold }">
+    <div class="rightpart_inner">
+      <home-home ref="homeHome"/>
+      <home-about ref="homeAbout"/>
+      <home-skills/>
+      <home-services/>
+      <home-projects/>
+      <home-transition/>
+      <home-counter/>
+      <home-blogs/>
+      <home-contact/>
+      <to-top ref="toTop"/>
+    </div>
   </div>
 </template>
 
 <script>
-import {mapState} from "vuex";
 
 import HomeAbout from "@/views/Home/HomeAbout.vue";
 import HomeSkills from "@/views/Home/HomeSkills.vue";
@@ -24,19 +26,17 @@ import HomeHome from "@/views/Home/HomeHeader.vue";
 import HomeTransition from "@/views/Home/HomeTransition.vue";
 import ToTop from "@/components/ToTop.vue";
 import HomeServices from "views/Home/HomeServices.vue";
+import HomeCounter from "views/Home/HomeCounter.vue";
+import {mapState} from "vuex";
 
 export default {
   name: "Home",
   components: {
+    HomeCounter,
     HomeServices,
     ToTop, HomeTransition, HomeHome, HomeBlogs, HomeContact, HomeProjects, HomeSkills, HomeAbout},
   computed: {
-    ...mapState(['padding']),
-    homePageStyle() {
-      return {
-        'padding-left': this.padding,
-      };
-    },
+    ...mapState(['isFold']),
   },
   mounted() {
 
