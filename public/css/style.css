@@ -1115,7 +1115,7 @@ img.svg{
 /*	06) ARLO PORTFOLIO
 /*---------------------------------------------------*/
 
-.arlo_tm_title_holder.portfolio{padding-bottom: 90px;}
+.arlo_tm_title_holder.portfolio{padding-bottom: 45px;}
 .arlo_tm_portfolio_wrapper_all{
     width: 100%;
     height: auto;
@@ -2363,9 +2363,9 @@ img.svg{
 .arlo_tm_portfolio_wrap .pagination_wrap a:hover{color: #E3872D;}
 
 .arlo_tm_portfolio_wrap .title_holder{margin-bottom: 18px;}
-.arlo_tm_portfolio_wrap .title_holder h3{
+.arlo_tm_portfolio_wrap .title_holder h4{
     color: #041230;
-    line-height: 1.4;
+    line-height: 1.2;
     font-weight: 600;
     font-family: "OPPOSans M";
 }
@@ -2382,7 +2382,11 @@ img.svg{
     transition: all .3s ease;
 }
 .arlo_tm_portfolio_wrap .title_holder h3 a:hover{color: #E3872D;}
-.arlo_tm_portfolio_wrap .definition{margin-bottom: 26px;}
+.arlo_tm_portfolio_wrap .definition{
+    margin-bottom: 26px;
+    max-height: 100px;
+    overflow: hidden;
+}
 .arlo_tm_portfolio_wrap .definition p{color: #333;}
 
 

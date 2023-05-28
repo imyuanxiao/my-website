@@ -4,11 +4,11 @@
       <home-home ref="homeHome"/>
       <home-about ref="homeAbout"/>
       <home-skills/>
-      <home-services/>
+<!--      <home-services/>-->
       <home-projects/>
-      <home-transition/>
-      <home-counter/>
-      <home-blogs/>
+<!--      <home-transition/>-->
+<!--      <home-counter/>-->
+<!--      <home-blogs/>-->
       <home-contact/>
       <to-top ref="toTop"/>
     </div>
@@ -25,8 +25,8 @@ import HomeBlogs from "@/views/Home/HomeBlogs.vue";
 import HomeHome from "@/views/Home/HomeHeader.vue";
 import HomeTransition from "@/views/Home/HomeTransition.vue";
 import ToTop from "@/components/ToTop.vue";
-import HomeServices from "views/Home/HomeServices.vue";
-import HomeCounter from "views/Home/HomeCounter.vue";
+import HomeServices from "@/views/Home/HomeServices.vue";
+import HomeCounter from "@/views/Home/HomeCounter.vue";
 import {mapState} from "vuex";
 
 export default {

@@ -15,7 +15,7 @@
             </div>
             <div class="short_info_wrap">
               <ul>
-                <li><p><label>Address:</label><span></span></p></li>
+<!--                <li><p><label>Address:</label><span></span></p></li>-->
                 <li><p><label>Email:</label><span><a href="mailto:imyuanxiao@126.com">imyuanxiao@126.com</a></span></p></li>
                 <li><p><label>Phone:</label><span>+44 74 21898341</span></p></li>
                 <li><p><label>Website:</label><span><a href="/index">imyuanxiao.com</a></span></p></li>

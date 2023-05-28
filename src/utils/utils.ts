@@ -3,7 +3,6 @@ import * as jQuery from 'jquery';
 import Typed from 'typed.js';
 import Parallax from 'parallax-js';
 import {jarallax} from 'jarallax';
-import 'jquery.ripples';
 import 'jquery-countto/jquery.countTo.js';
 
 export {

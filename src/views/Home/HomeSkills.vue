@@ -7,7 +7,7 @@
             <div class="arlo_tm_mini_title_holder">
               <h4>Some About my Abilities</h4>
             </div>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry. Lorem Ipsum has been the industry's standard dummy text since. Lorem Ipsum is simply.</p>
+            <p>Two years of experience in graphic design and programming. Primary programming languages are Java and C. Skilled in front-end frameworks such as React and Vue for developing decoupled front-end and back-end applications. Working with databases like Redis and MySQL, as well as various middleware technologies.</p>
           </div>
           <div class="rightbox">
             <div class="progress_bar_wrap_total">

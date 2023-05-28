@@ -17,9 +17,9 @@
         <ul class="anchor_nav">
           <li><router-link to="/index#home">Home</router-link></li>
           <li><router-link to="/index#about">About</router-link></li>
-          <li><router-link to="/index#services">Services</router-link></li>
+<!--          <li><router-link to="/index#services">Services</router-link></li>-->
           <li><router-link to="/index#projects">Projects</router-link></li>
-          <li><router-link to="/index#blogs">Blogs</router-link></li>
+<!--          <li><router-link to="/index#blogs">Blogs</router-link></li>-->
           <li><router-link to="/index#contact">Contact</router-link></li>
         </ul>
       </div>
@@ -32,7 +32,7 @@
 import {arlo_tm_hamburger} from "@/utils/utils.ts";
 
 export default {
-  name: "NavBarMobile",
+  name: "MenuMobile",
   mounted() {
     arlo_tm_hamburger();
   }
