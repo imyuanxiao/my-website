@@ -56,7 +56,9 @@ function arlo_tm_hamburger(): void {
 function animateText(element: HTMLElement): void {
 
     const options = {
-        strings: ["Freelancer", "Graphic Designer", "Java Developer"],
+        strings: [
+            "Freelancer", "Designer", "Java Developer"
+        ],
         typeSpeed: 80,
         backSpeed: 50,
         loop: true,

@@ -15,13 +15,22 @@
     <div class="arlo_tm_mobile_menu_wrap">
       <div class="mob_menu">
         <ul class="anchor_nav">
-          <li><router-link to="/index#home">Home</router-link></li>
-          <li><router-link to="/index#about">About</router-link></li>
-<!--          <li><router-link to="/index#services">Services</router-link></li>-->
-          <li><router-link to="/index#projects">Projects</router-link></li>
-<!--          <li><router-link to="/index#blogs">Blogs</router-link></li>-->
-          <li><router-link to="/index#contact">Contact</router-link></li>
+          <li>
+            <router-link to="/index#home"> {{ $t('menu.home') }}</router-link>
+          </li>
+          <li>
+            <router-link to="/index#about">{{ $t('menu.about') }}</router-link>
+          </li>
+          <li>
+            <router-link to="/index#projects">{{ $t('menu.projects') }}</router-link>
+          </li>
+          <li>
+            <router-link to="/index#contact">{{ $t('menu.contact') }}</router-link>
+          </li>
+
         </ul>
+        <button @click="changeLanguage('zh')">中文</button>
+        <button @click="changeLanguage('en')">English</button>
       </div>
     </div>
   </div>
@@ -35,7 +44,12 @@ export default {
   name: "MenuMobile",
   mounted() {
     arlo_tm_hamburger();
-  }
+  },
+  methods: {
+    changeLanguage(lang) {
+      this.$i18n.locale = lang;
+    }
+  },
 }
 </script>
 

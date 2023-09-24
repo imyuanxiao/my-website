@@ -1,0 +1,53 @@
+{
+  "menu.home": "Home",
+  "menu.about": "About",
+  "menu.projects": "Projects",
+  "menu.contact": "Contact",
+
+  "header.name1": "Xiao",
+  "header.name2": "Yuan",
+
+  "about": {
+    "title": "About Me",
+    "sub-title": "Main informations about me",
+    "sub-sub-title": "I'm Xiao Yuan and ",
+    "definition-1": "Hi! My name is ",
+    "definition-2": "Xiao Yuan",
+    "definition-3": ". You can call me ",
+    "definition-4": "Sean",
+    "definition-5": ". I am a Java Developer, and I'm very passionate and dedicated to my work. I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design and development process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.",
+    "birthday": "Birthday: ",
+    "birthday-value": "12.1995",
+    "age": "Age: ",
+    "age-value": "27",
+    "city": "City: ",
+    "city-value": "Shanghai",
+    "interests": "Interests: ",
+    "interests-value": "Guitar",
+    "study": "Study: ",
+    "study-value": "University of Bristol",
+    "degree": "Degree: ",
+    "degree-value": "Master",
+    "website": "Website: ",
+    "website-value": "yuanxiao.icu",
+    "email": "Email: ",
+    "email-value": "imyuanxiao@126.com",
+    "mobile": "Mobile: ",
+    "mobile-value": "+86 13524342068",
+    "wechat": "Wechat: ",
+    "wechat-value": "yxsean_",
+    "download": "Download Resume"
+  },
+
+  "skills": {
+    "title": "Some About my Abilities",
+    "description": "Two years of experience in graphic design and programming. Primary programming languages are Java and C. Skilled in frameworks such as Spring Boot and React for developing decoupled front-end and back-end applications. Working with databases like Redis and MySQL, as well as various middleware technologies.",
+    "java-value": "2 years of experience",
+    "c-value": "1 years of experience",
+    "ps-value": "2 years of experience",
+    "pr-value": "2 years of experience"
+  },
+
+
+  "website.title": "YUANXIAO"
+}

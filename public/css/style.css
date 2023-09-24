@@ -2362,7 +2362,8 @@ img.svg{
 }
 .arlo_tm_portfolio_wrap .pagination_wrap a:hover{color: #E3872D;}
 
-.arlo_tm_portfolio_wrap .title_holder{margin-bottom: 18px;}
+.arlo_tm_portfolio_wrap .title_holder{margin-bottom: 10px;}
+.arlo_tm_portfolio_wrap .tags{margin-bottom: 10px;}
 .arlo_tm_portfolio_wrap .title_holder h4{
     color: #041230;
     line-height: 1.2;

@@ -4,11 +4,7 @@
       <home-home ref="homeHome"/>
       <home-about ref="homeAbout"/>
       <home-skills/>
-<!--      <home-services/>-->
       <home-projects/>
-<!--      <home-transition/>-->
-<!--      <home-counter/>-->
-<!--      <home-blogs/>-->
       <home-contact/>
       <to-top ref="toTop"/>
     </div>

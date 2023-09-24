@@ -4,8 +4,8 @@
       <div class="container">
 
         <div class="arlo_tm_title_holder">
-          <h3>About Me</h3>
-          <span>Main informations about me</span>
+          <h3>{{ $t('about.title') }}</h3>
+          <span>{{ $t('about.sub-title') }}</span>
         </div>
 
         <div class="arlo_tm_about_wrap">
@@ -32,44 +32,44 @@
             <div class="rightbox">
 
               <div class="arlo_tm_mini_title_holder">
-                <h4>I'm Xiao Yuan and <span class="arlo_tm_animation_text_word" ref="animation_text"></span></h4>
+                <h4>{{ $t('about.sub-sub-title') }}<span class="arlo_tm_animation_text_word" ref="animation_text"></span></h4>
               </div>
 
               <div class="definition">
-                <p>Hi! My name is <strong>Xiao Yuan</strong>. You can just call me <strong>Sean</strong>. I am a Java Developer, and I'm very passionate and dedicated to my work. I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design and development process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
+                <p>{{ $t('about.definition-1') }}<strong>{{ $t('about.definition-2') }}</strong>{{ $t('about.definition-3') }}<strong>{{ $t('about.definition-4') }}</strong>{{ $t('about.definition-5') }}</p>
               </div>
               <div class="about_short_contact_wrap">
                 <ul>
                   <li>
-                    <span><label>Birthday:</label> 26.12.1995</span>												</li>
+                    <span><label>{{ $t('about.birthday') }}</label>{{ $t('about.birthday-value') }}</span>									 </li>
                   <li>
-                    <span><label>Age:</label> 28</span>												</li>
+                    <span><label>{{ $t('about.age') }}</label>{{ $t('about.age-value') }}</span> </li>
                   <li>
-                    <span><label>City:</label> Shanghai, China</span>												</li>
+                    <span><label>{{ $t('about.city') }}</label>{{ $t('about.city-value') }}</span>												</li>
                   <li>
-                    <span><label>Interests:</label> Guitar</span>												</li>
+                    <span><label>{{ $t('about.interests') }}</label>{{ $t('about.interests-value') }}</span>												</li>
                   <li>
-                    <span><label>Study:</label> University of Bristol</span>												</li>
+                    <span><label>{{ $t('about.study') }}</label>{{ $t('about.study-value') }}</span>												</li>
                   <li>
-                    <span><label>Degree:</label> Master</span>												</li>
+                    <span><label>{{ $t('about.degree') }}</label>{{ $t('about.degree-value') }}</span>												</li>
                   <li>
-                    <span><label>Website:</label> <a href="#">imyuanxiao.com</a></span>												</li>
+                    <span><label>{{ $t('about.website') }}</label><a href="#">{{ $t('about.website-value') }}</a></span>												</li>
                   <li>
-                    <span><label>Mail:</label> <a href="imyuanxiao@126.com">imyuanxiao&#64;126.com</a></span>												</li>
+                    <span><label>{{ $t('about.email') }}</label><a href="imyuanxiao@126.com">{{ $t('about.email-value') }}</a></span>												</li>
                   <li>
-                    <span><label>Phone:</label> +44 74 2189 8341</span>												</li>
+                    <span><label>{{ $t('about.mobile') }}</label>{{ $t('about.mobile-value') }}</span>												</li>
                   <li>
-                    <span><label>Wechat:</label> 13524342068</span>												</li>
+                    <span><label>{{ $t('about.wechat') }}</label>{{ $t('about.wechat-value') }}</span>												</li>
                 </ul>
               </div>
               <div class="buttons_wrap">
                 <ul>
                   <li>
-                    <a href="/"><span>Download CV</span></a>
+                    <a href="/"><span>{{ $t('about.download') }}</span></a>
                   </li>
-                  <li class="anchor">
-                    <a href="#" @click.prevent="smoothScroll('#contact')"><span>Send Message</span></a>
-                  </li>
+<!--                  <li class="anchor">-->
+<!--                    <a href="#" @click.prevent="smoothScroll('#contact')"><span>Send Message</span></a>-->
+<!--                  </li>-->
                 </ul>
               </div>
             </div>

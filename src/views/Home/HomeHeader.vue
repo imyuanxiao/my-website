@@ -16,7 +16,7 @@
             </div>
 
             <div class="name_holder">
-              <h3>Xiao <span>Yuan</span></h3>
+              <h3>{{$t('header.name1')}} <span>{{$t('header.name2')}}</span></h3>
             </div>
             <div class="text_typing">
               <p>I'm a <span class="arlo_tm_animation_text_word"></span></p>

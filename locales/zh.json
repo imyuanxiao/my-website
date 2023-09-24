@@ -1,0 +1,54 @@
+{
+  "menu.home": "主页",
+  "menu.about": "关于",
+  "menu.projects": "项目",
+  "menu.contact": "联系",
+
+  "header.name1": "袁",
+  "header.name2": "筱",
+
+  "about.title": "关于",
+  "about.sub-title": "一些我的基本信息",
+  "about": {
+    "title": "关于",
+    "sub-title": "我的基本信息",
+    "sub-sub-title": "我的名字是 袁筱。我是一名 ",
+    "definition-1": "嗨！我叫",
+    "definition-2": "袁筱",
+    "definition-3": "。英文名字是",
+    "definition-4": "Sean",
+    "definition-5": "。我是一名 Java 开发人员，我对自己的工作充满热情。我喜欢设计和开发过程的每一步，从讨论和协作到概念和执行，但最令我满意的还是看到作品能够真正帮助到客户。",
+    "birthday": "生日: ",
+    "birthday-value": "1995.12",
+    "age": "年龄: ",
+    "age-value": "27",
+    "city": "城市: ",
+    "city-value": "上海",
+    "interests": "兴趣: ",
+    "interests-value": "吉他",
+    "study": "学校: ",
+    "study-value": "布里斯托大学",
+    "degree": "学位: ",
+    "degree-value": "硕士",
+    "website": "网站: ",
+    "website-value": "yuanxiao.icu",
+    "email": "邮箱: ",
+    "email-value": "imyuanxiao@126.com",
+    "mobile": "手机: ",
+    "mobile-value": "+86 13524342068",
+    "wechat": "微信: ",
+    "wechat-value": "yxsean_",
+    "download": "简历下载"
+  },
+
+  "skills": {
+    "title": "关于我的能力",
+    "description": "两年平面设计和编程经验。主要编程语言是Java和C.擅长Spring Boot和React等框架以及前后端分离开发。掌握 Redis 和 MySQL 等数据库，以及各种中间件。有着良好的编程习惯 ，喜欢干净整洁的代码和完整易懂的注释。责任感强，能够为团队兜底。学习新技术/工具的速度快，能够适应不同环境和节奏。随机应变能力强，能够在有限条件下创造更多可能，以最具性价比的方式满足客户需求。",
+    "java-value": "2 年开发经验",
+    "c-value": "1 年开发经验",
+    "ps-value": "2 年平面设计经验",
+    "pr-value": "2 年视频制作经验"
+  },
+
+  "website.title": "YUANXIAO"
+}

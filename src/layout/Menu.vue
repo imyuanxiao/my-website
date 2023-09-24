@@ -8,24 +8,20 @@
       <div class="menu_list_wrap">
         <ul class="anchor_nav">
           <li>
-            <router-link to="/index#home">Home</router-link>
+            <router-link to="/index#home"> {{ $t('menu.home') }}</router-link>
           </li>
           <li>
-            <router-link to="/index#about">About</router-link>
+            <router-link to="/index#about">{{ $t('menu.about') }}</router-link>
           </li>
-<!--          <li>-->
-<!--            <router-link to="/index#services">Services</router-link>-->
-<!--          </li>-->
           <li>
-            <router-link to="/index#projects">Projects</router-link>
+            <router-link to="/index#projects">{{ $t('menu.projects') }}</router-link>
           </li>
-<!--          <li>-->
-<!--            <router-link to="/index#blogs">Blogs</router-link>-->
-<!--          </li>-->
           <li>
-            <router-link to="/index#contact">Contact</router-link>
+            <router-link to="/index#contact">{{ $t('menu.contact') }}</router-link>
           </li>
         </ul>
+        <button @click="changeLanguage('zh')">中文</button>
+        <button @click="changeLanguage('en')">English</button>
       </div>
       <div class="leftpart_bottom">
         <div class="social_wrap">
@@ -58,6 +54,9 @@ export default {
   },
   methods: {
     ...mapMutations(['toggleFold']),
+    changeLanguage(lang) {
+      this.$i18n.locale = lang;
+    }
   },
 };
 </script>
