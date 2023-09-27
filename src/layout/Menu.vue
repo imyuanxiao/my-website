@@ -20,23 +20,20 @@
 <!--            <router-link to="/index#contact">{{ $t('menu.contact') }}</router-link>-->
 <!--          </li>-->
         </ul>
-        <div>
-          <button class="language-button" @click="changeLanguage('zh')">中</button>
-          <button class="language-button" @click="changeLanguage('en')">En</button>
-        </div>
+
       </div>
       <div class="leftpart_bottom">
-        <div class="social_wrap">
-          <ul>
-<!--            <li><a href="#"><i class="xcon-facebook"></i></a></li>-->
-<!--            <li><a href="#"><i class="xcon-twitter"></i></a></li>-->
-<!--            <li><a href="#"><i class="xcon-linkedin"></i></a></li>-->
-<!--            <li><a href="#"><i class="xcon-instagram"></i></a></li>-->
-            <li><a href="#"><i class="xcon-facebook"></i></a></li>
-            <li><a href="#"><i class="xcon-twitter"></i></a></li>
-            <li><a href="#"><i class="xcon-linkedin"></i></a></li>
-            <li><a href="#"><i class="xcon-instagram"></i></a></li>
+        <div class="social_wrap" >
+          <ul >
+            <li>
+              <button class="language-button" @click="changeLanguage('zh')">中</button>
+            </li>
+            <li>
+              <button class="language-button" @click="changeLanguage('en')">En</button>
+            </li>
+            <li><a href="https://github.com/imyuanxiao" target="_blank">Git</a></li>
           </ul>
+
         </div>
       </div>
 

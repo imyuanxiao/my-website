@@ -5,7 +5,6 @@
       <home-about ref="homeAbout"/>
       <home-skills/>
       <home-projects/>
-<!--      <home-contact/>-->
       <to-top ref="toTop"/>
     </div>
   </div>
@@ -16,10 +15,7 @@
 import HomeAbout from "@/views/Home/HomeAbout.vue";
 import HomeSkills from "@/views/Home/HomeSkills.vue";
 import HomeProjects from "@/views/Home/HomeProjects.vue";
-import HomeContact from "@/views/Home/HomeContact.vue";
-import HomeBlogs from "@/views/Home/HomeBlogs.vue";
 import HomeHome from "@/views/Home/HomeHeader.vue";
-import HomeTransition from "@/views/Home/HomeTransition.vue";
 import ToTop from "@/components/ToTop.vue";
 import HomeServices from "@/views/Home/HomeServices.vue";
 import HomeCounter from "@/views/Home/HomeCounter.vue";
@@ -30,7 +26,11 @@ export default {
   components: {
     HomeCounter,
     HomeServices,
-    ToTop, HomeTransition, HomeHome, HomeBlogs, HomeContact, HomeProjects, HomeSkills, HomeAbout},
+    ToTop,
+    HomeHome,
+    HomeAbout,
+    HomeSkills,
+    HomeProjects},
   computed: {
     ...mapState(['isFold']),
   },

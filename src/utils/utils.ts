@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import * as jQuery from 'jquery';
+//import * as jQuery from 'jquery';
 import Typed from 'typed.js';
 import Parallax from 'parallax-js';
 import {jarallax} from 'jarallax';
@@ -167,17 +167,17 @@ function arlo_tm_jarallax(): void {
 /*HomeCounter*/
 function arlo_tm_miniboxes(): void {
     "use strict";
-    const el = jQuery('.arlo_tm_miniboxes');
+    const el = $('.arlo_tm_miniboxes');
 
     if (el.length) {
         el.each(function (index, element) {
-            const child = jQuery(element).find('.arlo_tm_minibox');
+            const child = $(element).find('.arlo_tm_minibox');
             child.css({height: 'auto'});
             // Get an array of all element heights
-            const W = jQuery(window).width();
+            const W = $(window).width();
             if (W > 480) {
                 const elementHeights = child.map(function () {
-                    return jQuery(this).outerHeight();
+                    return $(this).outerHeight();
                 }).get();
                 // Math.max takes a variable number of arguments
                 // `apply` is equivalent to passing each height as an argument
@@ -194,7 +194,7 @@ function initCounter(): void {
     };
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
-            const el = jQuery(entry.target);
+            const el = $(entry.target);
             if (entry.isIntersecting && !el.hasClass('stop')) {
                 el.addClass('stop').countTo({
                     refreshInterval: 50,
@@ -206,14 +206,14 @@ function initCounter(): void {
         });
     }, options);
 
-    jQuery('.arlo_tm_counter').each(function () {
+    $('.arlo_tm_counter').each(function () {
         observer.observe(this);
     });
 }
 
 /*HomeContact*/
 function arlo_tm_contact_form(): void {
-    const $contactForm = jQuery(".contact_form");
+    const $contactForm = $(".contact_form");
     const $name = $contactForm.find("#name");
     const $email = $contactForm.find("#email");
     const $message = $contactForm.find("#message");
@@ -223,20 +223,20 @@ function arlo_tm_contact_form(): void {
 
     $returnMessage.empty();
 
-    jQuery(".contact_form #send_message").on('click', function(){
+    $(".contact_form #send_message").on('click', function(){
         const name = $name.val();
         const email = $email.val();
         const message = $message.val();
         const subject = $subject.val();
 
         if(name===''||email===''||message===''){
-            jQuery('div.empty_notice').slideDown(500).delay(2000).slideUp(500);
+            $('div.empty_notice').slideDown(500).delay(2000).slideUp(500);
         }
         else{
-            jQuery.post("modal/contact.php", {ajax_name: name, ajax_email: email, ajax_message: message, ajax_subject: subject}, function(data) {
+            $.post("modal/contact.php", {ajax_name: name, ajax_email: email, ajax_message: message, ajax_subject: subject}, function(data) {
                 $returnMessage.append(data);
 
-                if(jQuery(".contact_form .returnmessage span.contact_error").length){
+                if($(".contact_form .returnmessage span.contact_error").length){
                     $returnMessage.slideDown(500).delay(2000).slideUp(500);
                 }else{
                     $returnMessage.append("<span class='contact_success'>"+ success +"</span>");

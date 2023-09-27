@@ -1,6 +1,6 @@
 <template>
-  <div class="arlo_tm_section relative" id="about">
-    <div class="arlo_tm_about_wrapper_all">
+      <div class="arlo_tm_section relative" id="about">
+        <div class="arlo_tm_about_wrapper_all">
       <div class="container">
 
         <div class="arlo_tm_title_holder">
@@ -53,9 +53,9 @@
                   <li>
                     <span><label>{{ $t('about.degree') }}</label>{{ $t('about.degree-value') }}</span>												</li>
                   <li>
-                    <span><label>{{ $t('about.website') }}</label><a href="#">{{ $t('about.website-value') }}</a></span>												</li>
+                    <span><label>{{ $t('about.website') }}</label><a href="http://www.yuanxiao.icu" target="_blank">{{ $t('about.website-value') }}</a></span>												</li>
                   <li>
-                    <span><label>{{ $t('about.email') }}</label><a href="imyuanxiao@126.com">{{ $t('about.email-value') }}</a></span>												</li>
+                    <span><label>{{ $t('about.email') }}</label><a href="mailto:imyuanxiao&commat;126.com">imyuanxiao&commat;126.com</a></span>												</li>
                   <li>
                     <span><label>{{ $t('about.mobile') }}</label>{{ $t('about.mobile-value') }}</span>												</li>
                   <li>

@@ -33,12 +33,12 @@
     "website": "网站: ",
     "website-value": "yuanxiao.icu",
     "email": "邮箱: ",
-    "email-value": "imyuanxiao@126.com",
     "mobile": "手机: ",
     "mobile-value": "+86 13524342068",
     "wechat": "微信: ",
     "wechat-value": "yxsean_",
-    "download": "简历下载"
+    "download": "简历下载",
+    "resume": "简历"
   },
 
   "skills": {
