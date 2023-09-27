@@ -12,10 +12,10 @@
   "about": {
     "title": "关于",
     "sub-title": "我的基本信息",
-    "sub-sub-title": "我的名字是 袁筱。我是一名 ",
-    "definition-1": "嗨！我叫",
+    "sub-sub-title": "我是 袁筱，一名 ",
+    "definition-1": "嗨！我的名字是",
     "definition-2": "袁筱",
-    "definition-3": "。英文名字是",
+    "definition-3": "，英文名是",
     "definition-4": "Sean",
     "definition-5": "。我是一名 Java 开发人员，我对自己的工作充满热情。我喜欢设计和开发过程的每一步，从讨论和协作到概念和执行，但最令我满意的还是看到作品能够真正帮助到客户。",
     "birthday": "生日: ",
@@ -43,11 +43,40 @@
 
   "skills": {
     "title": "关于我的能力",
-    "description": "两年平面设计和编程经验。主要编程语言是Java和C.擅长Spring Boot和React等框架以及前后端分离开发。掌握 Redis 和 MySQL 等数据库，以及各种中间件。有着良好的编程习惯 ，喜欢干净整洁的代码和完整易懂的注释。责任感强，能够为团队兜底。学习新技术/工具的速度快，能够适应不同环境和节奏。随机应变能力强，能够在有限条件下创造更多可能，以最具性价比的方式满足客户需求。",
+    "description": "两年平面设计和编程经验。主要编程语言是Java和C。擅长 Spring Boot 和 React 等框架以及前后端分离开发。掌握 Redis 和 MySQL 等数据库，以及各种中间件。有着良好的编程习惯 ，喜欢干净整洁的代码和完整易懂的注释。责任感强，能够为团队兜底。学习新技术/工具的速度快，能够适应不同环境和节奏。随机应变能力强，能够在有限条件下创造更多可能，以最具性价比的方式满足客户需求。",
     "java-value": "2 年开发经验",
     "c-value": "1 年开发经验",
     "ps-value": "2 年平面设计经验",
     "pr-value": "2 年视频制作经验"
+  },
+
+
+  "projects": {
+    "title": "项目",
+    "sub-title": "我最近完成的项目有",
+    "view-online": "在线演示",
+    "demo-video": "视频演示",
+    "git": "代码仓库",
+    "api-master": {
+      "title": "ApiMaster-接口开放平台",
+      "description": "一个接口调用开放平台。管理员可以接入并发布接口，可视化各接口调用情况，用户可以开通接口调用权限、浏览接口及在线调试，并通过客户端SDK轻松调用接口。"
+    },
+    "etlg": {
+      "title": "探索：新兴技术-教育游戏",
+      "description": "由IBM委托的数字游戏化学习项目，融合IBM学习平台的课程，以游戏的形式激励用户进行学习。用户通过和NPC互动进行学习并获取资源，通过装备和技能提升飞船属性，并且可联网查看排行榜。"
+    },
+    "role-master": {
+      "title": "RoleMaster-权限管理中心",
+      "description": "基于Role Based Access Control模型的权限管理中心。管理员可以编辑角色、权限和用户信息，查看用户登录历史。用户可以使用无权限或低权限要求的模块，更新个人资料。"
+    },
+    "jupiter-X": {
+      "title": "JupiterX-肉鸽游戏",
+      "description": "基于Processing软件开发的Roguelike游戏。游戏内会随机生成地图、道具和怪物，玩家需要收集资源用于竞争排名。"
+    },
+    "my-website": {
+      "title": "个人网站",
+      "description": "基于Vue框架打造的个人简历及项目展示网站。"
+    }
   },
 
   "website.title": "YUANXIAO"

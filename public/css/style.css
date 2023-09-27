@@ -27,6 +27,22 @@
 /*	01) ARLO BASE
 /*---------------------------------------------------*/
 
+.language-button {
+    background-color: #e3872d; /* 设置背景颜色 */
+    color: #fff; /* 设置文字颜色 */
+    border: none; /* 移除边框 */
+    padding: 10px 20px; /* 设置内边距 */
+    border-radius: 5px; /* 添加圆角 */
+    cursor: pointer; /* 鼠标悬停时显示手型指针 */
+    margin-right: 10px; /* 设置按钮之间的右边距 */
+    height: 50px;
+}
+
+.language-button:hover {
+    background-color: #0056b3; /* 鼠标悬停时的背景颜色 */
+}
+
+
 html {
     overflow-x: hidden;
     padding: 0px;

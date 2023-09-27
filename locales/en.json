@@ -48,6 +48,33 @@
     "pr-value": "2 years of experience"
   },
 
+  "projects": {
+    "title": "My Projects",
+    "sub-title": "Check out my latest projects",
+    "view-online": "Online Demo",
+    "demo-video": "Demo Video",
+    "git": "Git Repository",
+    "api-master": {
+      "title": "Api Master - API Management Platform",
+      "description": "Administrators can connect and publish interfaces, visualize interface usage, and allow users to subscribe to interface access permissions, browse interfaces, and perform online debugging. Users can easily call interfaces through client SDK."
+    },
+    "etlg": {
+      "title": "IBM Emerging Technology Learning Game",
+      "description": "A digital gamified learning project commissioned by IBM, integrating courses from the IBM learning platform to motivate users to learn through gaming. Users engage in learning by interacting with NPCs to acquire resources, enhance spaceship attributes through equipment and skills, and compare with others through leaderboards."
+    },
+    "role-master": {
+      "title": "Role Master - Role-Based Access Control System",
+      "description": "Administrators can edit roles, permissions, and user info, as well as view user login history. Users can access pages with no or low permission requirements and update their personal information."
+    },
+    "jupiter-X": {
+      "title": "JupiterX - Roguelike Game",
+      "description": "A Rogue-like game with randomly generated maps, items, and monsters, and players need to collect resources to compete for rankings."
+    },
+    "my-website": {
+      "title": "My Website",
+      "description": "Personal website based on Vue, used to show resume and projects."
+    }
+  },
 
   "website.title": "YUANXIAO"
 }

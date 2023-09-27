@@ -47,7 +47,7 @@
       </div>
       <div class="arlo_tm_footer_wrap">
         <div class="container">
-          <p>Copyright &copy; 2023.IMYUANXIAO All rights reserved.<a target="_blank" href=""></a></p>
+          <p>Copyright &copy; 2023.YUANXIAO All rights reserved.<a target="_blank" href=""></a></p>
         </div>
       </div>
     </div>

@@ -24,13 +24,15 @@
           <li>
             <router-link to="/index#projects">{{ $t('menu.projects') }}</router-link>
           </li>
-          <li>
-            <router-link to="/index#contact">{{ $t('menu.contact') }}</router-link>
-          </li>
+<!--          <li>-->
+<!--            <router-link to="/index#contact">{{ $t('menu.contact') }}</router-link>-->
+<!--          </li>-->
 
         </ul>
-        <button @click="changeLanguage('zh')">中文</button>
-        <button @click="changeLanguage('en')">English</button>
+        <div>
+          <button class="language-button" @click="changeLanguage('zh')">中</button>
+          <button class="language-button" @click="changeLanguage('en')">En</button>
+        </div>
       </div>
     </div>
   </div>

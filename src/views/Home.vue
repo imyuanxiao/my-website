@@ -5,7 +5,7 @@
       <home-about ref="homeAbout"/>
       <home-skills/>
       <home-projects/>
-      <home-contact/>
+<!--      <home-contact/>-->
       <to-top ref="toTop"/>
     </div>
   </div>

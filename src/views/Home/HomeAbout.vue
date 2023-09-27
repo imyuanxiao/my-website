@@ -65,7 +65,7 @@
               <div class="buttons_wrap">
                 <ul>
                   <li>
-                    <a href="/"><span>{{ $t('about.download') }}</span></a>
+                    <a href="https://wwiw.lanzouy.com/iu9Fv1a0wdna" target="_blank"><span>{{ $t('about.download') }}</span></a>
                   </li>
 <!--                  <li class="anchor">-->
 <!--                    <a href="#" @click.prevent="smoothScroll('#contact')"><span>Send Message</span></a>-->
