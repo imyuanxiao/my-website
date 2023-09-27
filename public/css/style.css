@@ -34,8 +34,9 @@
     border-radius: 5px; /* 添加圆角 */
     cursor: pointer; /* 鼠标悬停时显示手型指针 */
     margin-right: 5px; /* 设置按钮之间的右边距 */
-    height: 30px;
-    line-height: inherit;
+    padding: 0 5px;
+    line-height: 25px;
+    align-items: center; /* 垂直居中对齐文本 */
 }
 
 .language-button:hover {
